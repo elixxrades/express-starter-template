@@ -1,0 +1,5 @@
+node_modules
+logs
+db
+package-lock.json
+client/node_modules

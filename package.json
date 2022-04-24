@@ -1,0 +1,22 @@
+{
+  "name": "express-api-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "setup":"npm install && cd client && npm install",
+    "serve": "node server.js",
+    "client":"cd client && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "allahc.c.db": "^6.4.9",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "events": "^3.3.0",
+    "express": "^4.17.3",
+    "fs-extra": "^10.1.0"
+  }
+}
